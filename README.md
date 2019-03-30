@@ -1,6 +1,12 @@
 # Base Web App
 
-Check it out at: https://pacific-bastion-31399.herokuapp.com/
+This app was made during HubSpot's Women's Web App Workshop. The initial code was forked from zsobin's GitHub, with specifics on working with a Firebase database from glanza. 
+
+I have since stylized it and added some features.
+
+Below are the set up instructions given to participants
+
+Check zsobins intial app out at: https://pacific-bastion-31399.herokuapp.com/
 
 ### Phase 1: Base Web App
 Mission- Get up and running with the Base Web App. Should be able to run locally and be deployed on Heroku. 
