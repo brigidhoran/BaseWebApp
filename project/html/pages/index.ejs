@@ -5,21 +5,39 @@
 
 <body>
 
+  <button class="btn btn-default" type="button" id="login-button" onclick="ToggleSignIn()">
+    Sign In
+  </button>
+
   <!-- the classes 'page-header' and 'btn btn-default' create bootstrap components.  -->
   <!-- Check out more components here: http://getbootstrap.com/components/ -->
   <div class="page-header">
-    <h1>YOYO web apps are so cool</h1>
+    <h1>Message Board</h1>
   </div>
 
   <p id="demo">
-    This is Brigid testing out a lil html file
+    Click for Doge
   </p>
-
+  
   <button class="btn btn-default" type="button" onclick="myFunction()">
     Try it
   </button>
 
   <div id="doge-image"/>
+
+  <form action="/action_page.php">
+    Post Title:<br>
+    <input type="text" name="post-title" id="post-title"><br>
+    Post Body:<br>
+    <input type="text" name="post-body" id="post-body"><br>
+
+  <button class="btn btn-default" type="button" id="submit" onclick="SubmitMessageForm()">
+    Submit
+  </button>
+
+  </form>
+
+  <div id="stream"></div>
 
 </body>
 
